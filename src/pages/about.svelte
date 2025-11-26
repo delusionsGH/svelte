@@ -7,8 +7,8 @@
 
 	import Contributor from "../lib/Contributor.svelte";
 
-	const REPO_OWNER = "meower-media-co";
-	const REPO_NAME = "Meower-Svelte";
+	const REPO_OWNER = "meower-media";
+	const REPO_NAME = "client";
 
 	async function fetchContributors() {
 		const res = await fetch(
@@ -40,7 +40,7 @@
 	<a href="https://meower.org" target="_blank" rel="noreferrer">Learn more</a>
 	|
 	<a
-		href="https://github.com/meower-media-co"
+		href="https://github.com/meower-media"
 		target="_blank"
 		rel="noreferrer">Source code</a
 	>
@@ -51,25 +51,13 @@
 	<p>These people have the highest authority of the Meower project.</p>
 	<div class="contributors-list">
 		<Contributor username="MikeDEV" pfp={26} isMeower={true}>
-			Current owner of Meower
+			Former owner of Meower
 		</Contributor>
-		<Contributor username="tnix" pfp={20} isMeower={true}>
+		<Contributor username="Tnix" pfp={20} isMeower={true}>
 			Backend developer
 		</Contributor>
 		<Contributor username="silvxrcat" pfp={-3} isMeower={true}>
 			Original owner of Meower
-		</Contributor>
-		<Contributor username="CST1229" pfp={-1} isMeower={true}>
-			Frontend developer
-		</Contributor>
-		<Contributor username="zedthehedgehog" pfp={22} isMeower={true}>
-			Designer
-		</Contributor>
-		<Contributor username="DaCatBlock" pfp={23} isMeower={true}>
-			Web developer
-		</Contributor>
-		<Contributor username="Voxalice" pfp={28} isMeower={true}>
-			Musician
 		</Contributor>
 	</div>
 </Container>
@@ -115,6 +103,12 @@
 </Container>
 <Container>
 	<h2>Changelog</h2>
+	<Container>
+		<h2>1.8.5</h2>
+		<ul>
+			<li>Switch around a few things and added GitHub OAuth2</li>
+		</ul>
+	</Container>
 	<Container>
 		<h2>1.8.4</h2>
 		<ul>
