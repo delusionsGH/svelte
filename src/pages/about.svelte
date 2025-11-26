@@ -35,7 +35,7 @@
 	<img src={logo} alt="Meower" height="80" />
 </h1>
 <b class="center friendlier">The friendlier social media for everyone.</b>
-<div class="center">Svelte Client, version {version}</div>
+<div class="center">Svelte, v{version}</div>
 <div class="center links">
 	<a href="https://meower.org" target="_blank" rel="noreferrer">Learn more</a>
 	|
@@ -48,16 +48,13 @@
 
 <Container>
 	<h2>The Council</h2>
-	<p>These people have the highest authority of the Meower project.</p>
+	<p>These people have the highest authority of the Meower Revival project.</p>
 	<div class="contributors-list">
-		<Contributor username="MikeDEV" pfp={26} isMeower={true}>
-			Former owner of Meower
+		<Contributor username="ethernet" pfp={1} isMeower={true}>
+			Server host
 		</Contributor>
 		<Contributor username="Tnix" pfp={20} isMeower={true}>
 			Backend developer
-		</Contributor>
-		<Contributor username="silvxrcat" pfp={-3} isMeower={true}>
-			Original owner of Meower
 		</Contributor>
 	</div>
 </Container>
