@@ -47,18 +47,6 @@
 </div>
 
 <Container>
-	<h2>The Council</h2>
-	<p>These people have the highest authority of the Meower Revival project.</p>
-	<div class="contributors-list">
-		<Contributor username="ethernet" pfp={1} isMeower={true}>
-			Server host
-		</Contributor>
-		<Contributor username="Tnix" pfp={20} isMeower={true}>
-			Backend developer
-		</Contributor>
-	</div>
-</Container>
-<Container>
 	<h2>Client Contributors</h2>
 	<p>(This list uses GitHub usernames/PFPs and the order is randomized.)</p>
 	{#await fetchContributors()}
